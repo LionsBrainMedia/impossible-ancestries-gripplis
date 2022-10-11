@@ -1,0 +1,92 @@
+{
+  "id": "impossible-ancestries-gripplis",
+  "title": "Impossible Ancestries: Gripplis",
+  "description": "Foundry support for Impossible Ancestries: Gripplis, by Lion's Brain Media.",
+  "version": "0.5",
+  "authors": [
+    {"name": "W. Brian Lane" 
+    }
+  ],
+  "compatibility": {
+    "minimum": "10.285",
+    "verified": "10.285"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "4.0.6"
+      }
+    }]
+  },
+  "packs": [
+    {
+      "label": "Impossible Ancestries Gripplis Heritages",
+      "type": "Item",
+      "name": "impossible-ancestries-gripplis-heritages",
+      "path": "./packs/impossible-ancestries-gripplis-heritages.db",
+      "system": "pf2e",
+      "package": "impossible-ancestries-gripplis",
+      "private": false
+    },
+    {
+      "label": "Impossible Ancestries Gripplis Ancestry Feats",
+      "type": "Item",
+      "name": "impossible-ancestries-gripplis-ancestry-feats",
+      "path": "./packs/impossible-ancestries-gripplis-ancestry-feats.db",
+      "system": "pf2e",
+      "package": "impossible-ancestries-gripplis",
+      "private": false
+    },
+    {
+      "label": "Impossible Ancestries Gripplis Mana Keeper Archetype",
+      "type": "Item",
+      "name": "impossible-ancestries-gripplis-mana-keeper-archetype",
+      "path": "./packs/impossible-ancestries-gripplis-mana-keeper-archetype.db",
+      "system": "pf2e",
+      "package": "impossible-ancestries-gripplis",
+      "private": false
+    },
+    {
+      "label": "Impossible Ancestries Gripplis Spellcatcher Archetype",
+      "type": "Item",
+      "name": "impossible-ancestries-gripplis-spellcatcher-archetype",
+      "path": "./packs/impossible-ancestries-gripplis-spellcatcher-archetype.db",
+      "system": "pf2e",
+      "package": "impossible-ancestries-gripplis",
+      "private": false
+    },
+    {
+      "label": "Impossible Ancestries Gripplis Fiend-Keeper Archetype",
+      "type": "Item",
+      "name": "impossible-ancestries-gripplis-fiend-keeper-archetype",
+      "path": "./packs/impossible-ancestries-gripplis-fiend-keeper-archetype.db",
+      "system": "pf2e",
+      "package": "impossible-ancestries-gripplis",
+      "private": false
+    },
+    {
+      "label": "Impossible Ancestries Gripplis Westwatcher of Alungur Archetype",
+      "type": "Item",
+      "name": "impossible-ancestries-gripplis-westatcher-of-alungur-archetype",
+      "path": "./packs/impossible-ancestries-gripplis-westatcher-of-alungur-archetype.db",
+      "system": "pf2e",
+      "package": "impossible-ancestries-gripplis",
+      "private": false
+    },
+    {
+      "label": "Impossible Ancestries Gripplis Backgrounds",
+      "type": "Item",
+      "name": "impossible-ancestries-gripplis-backgrounds",
+      "path": "./packs/impossible-ancestries-gripplis-backgrounds.db",
+      "system": "pf2e",
+      "package": "impossible-ancestries-gripplis",
+      "private": false
+    }
+],
+  "url": "https://github.com/LionsBrainMedia/impossible-ancestries-gripplis",
+  "manifest": "https://raw.githubusercontent.com/LionsBrainMedia/impossible-ancestries-gripplis/master/module.json",
+  "download": "https://github.com/LionsBrainMedia/impossible-ancestries-gripplis/archive/refs/heads/main.zip"
+}
